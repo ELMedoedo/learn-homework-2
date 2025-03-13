@@ -46,8 +46,8 @@ def Save_res(text_len):
     # input = open("Test.txt", "r", encoding="utf8")
     output = open("referat2.txt", "w", encoding="utf8")
     # res=input.read()
-    res = text_len
-    output.write(res)
+    # res = text_len
+    output.write(text_len)
     # input.close()
     output.close
 
